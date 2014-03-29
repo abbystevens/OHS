@@ -1,0 +1,67 @@
+#quizapp {
+	margin-top: 100px;
+	margin-left: 300px;
+	margin-right: 300px;
+	margin-bottom: 100px;
+}
+
+h3 {
+	font-family: Cooper Black, Arial, sans-serif;
+}
+.answers {
+	font-size: 14px;
+}
+
+.red {
+	color: red;
+}
+
+.answers .answerA {
+	padding-bottom: 10px;
+}
+
+.answers .answerB {
+	padding-bottom: 10px;
+}
+
+.answers .answerC {
+	padding-bottom: 10px;
+}
+
+.answers .answerD {
+	padding-bottom: 10px;
+}
+
+.answers .answerE {
+	padding-bottom: 10px;
+}
+
+.answers .answerF {
+	padding-bottom: 10px;
+}
+
+.answers .answerG {
+	padding-bottom: 10px;
+}
+
+/* MEDIA QUERIES ========================================== */
+
+@media (max-width: 991px) {
+	#quizapp {
+	margin-left: 100px;
+	margin-right: 100px;
+	}
+}
+@media (max-width: 684px) {
+	#quizapp {
+	margin-left: 50px;
+	margin-right: 50px;
+	}
+}
+
+@media (max-width: 474px) {
+	#quizapp {
+	margin-left: 25px;
+	margin-right: 25px;
+	}
+}
