@@ -10,19 +10,39 @@
 </head>
 
 <body>
-  <div id="quizapp">
-    <div class="welcomePage">
-      <h2 id="welcome">Bionic Bark!!!</h2>
-      <a class="btn btn-success" id="startButton" role="button">Start Quiz Now!</a>
-    </div>
-    
 
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+  
+  <div id="bark">
+    <img src="img/Bark/SuperQuiz-Bark.jpg" class="img-responsive" alt="Bionic Bark">
+  </div>
+
+  <div class="bionicButtons">
+
+    <img src="img/Bark/Buttons/Bark_Download Cape.jpg" class="img-responsive" alt="Download Cape Pattern">
     
     <br>
-    <a class="btn btn-primary" id="findResult" role="button">Find Result</a>
     
-      
+    <img src="img/Bark/Buttons/Bark_Sign-Up.jpg" class="img-responsive" alt="Sign up for doggie dash">
     
+    <br>
+  
+    <div class="fb-share-button" data-href="http://www.oregonhumane.org/doggiedash/index.asp" data-width="400px" data-type="button"></div>
+    
+    <br>
+    
+    <a href="https://twitter.com/share" class="twitter-share-button" data-url="https://www.oregonhumane.org/doggiedash/" data-text="My Super Pup Power is the Bionic Bark - what's yours?" data-via="OregonHumane" data-size="large" data-hashtags="DoggieDash2014">Tweet</a>
+    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+  </div>
+
+
 
 </body>
 </html>

@@ -67,19 +67,19 @@ $("input:radio").click(function() {
 
 	$("#findResult").click(function() {
 		if (counterA > counterB && counterA > counterC && counterA > counterD && counterA > counterE && counterA > counterF && counterA > counterG) {
-			window.location.href = "file://localhost/Users/adeats/Desktop/OHS2/snuggler.html";
+			window.location.href = "../snuggler.html";
 	} else if (counterB > counterA && counterB > counterC && counterB > counterD && counterB > 	counterE && counterB > counterF && counterB > counterG) {
-			window.location.href = "file://localhost/Users/adeats/Desktop/OHS2/bionicBark.html";
+			window.location.href = "../bionicBark.html";
 	} else if (counterC > counterA && counterC > counterB && counterC > counterD && counterC > counterE && counterC > counterF && counterC > counterG) {
-			window.location.href = "file://localhost/Users/adeats/Desktop/OHS2/enthusiastico.html";
+			window.location.href = "../enthusiastico.html";
 	} else if (counterD > counterA && counterD > counterB && counterD > counterC && counterD > counterE && counterD > counterF && counterD > counterG) {
-			window.location.href = "file://localhost/Users/adeats/Desktop/OHS2/cautious.html";
+			window.location.href = "../sniffer.html";
 	} else if (counterE > counterA && counterE > counterB && counterE > counterC && counterE > counterD && counterE > counterF && counterE > counterG) {
-			window.location.href = "file://localhost/Users/adeats/Desktop/OHS2/wag.html";
+			window.location.href = "../wag.html";
 	} else if (counterF > counterA && counterF > counterB && counterF > counterC && counterF > counterD && counterF > counterE && counterF > counterG) {
-			window.location.href = "file://localhost/Users/adeats/Desktop/OHS2/sniffer.html";
+			window.location.href = "../cautious.html";
 	} else if (counterG > counterA && counterG > counterB && counterG > counterC && counterG > counterD && counterG > counterE && counterG > counterF) {
-			window.location.href = "file://localhost/Users/adeats/Desktop/OHS2/cat.html";
+			window.location.href = "../cat.html";
 	}
 
 	});
