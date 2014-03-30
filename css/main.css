@@ -80,9 +80,18 @@ input[type=radio] {
 
 .answer {
 	position: relative;
-	padding-top: 15px;
-	padding-left: 30px;
+	padding: 10px 5px 10px 35px;
 	line-height: 1.2;
+
+	-ms-transition: background-color .2s ease-in-out;
+	-webkit-transition: background-color .2s ease-in-out;
+	-moz-transition: background-color .2s ease-in-out;
+	-o-transition: background-color .2s ease-in-out;
+	transition: background-color .2s ease-in-out;
+}
+
+.answer:hover {
+	background: #f8f8f8;
 }
 
 .answer label:before {
@@ -90,7 +99,7 @@ input[type=radio] {
     display: inline-block;
     position: absolute;
     top: 13px;
-    left: -2px;
+    left: 5px;
     width: 25px;
     height:25px;
     background-image:url(../img/formelements.png);
@@ -111,12 +120,12 @@ input[type=radio] {
 }
 
 /* Checked Position */
-.checked label:before {
+.answer-checked label:before {
 	background-position: -25px 0;
 }
 
 #quiz_submit {
-	
+	cursor: pointer;
 }
 
 
