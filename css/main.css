@@ -1,79 +1,79 @@
+/****
+*****
+***** GLOBAL STYLES
+*****
+*****/
 
-
-#quizapp {
-	margin-top: 100px;
-	margin-left: 300px;
-	margin-right: 300px;
-	margin-bottom: 100px;
+/*  apply a natural box layout model to all elements  for more info: http://www.paulirish.com/2012/box-sizing-border-box-ftw/ */
+* {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;	
+	box-sizing: border-box;
 }
 
-#header img {
-	width: 150%;
-	height: auto;
-	
+body {
+	font-family: Arial, sans-serif;
+	font-size: 20px;
 }
 
-.bionicButtons {
-	padding-left: 500px;
+h2 {
+	margin: 15px 0;
+	font-family: "Cooper Black", Arial, sans-serif;
+	font-weight: bold;
+	font-size: 26px;
 }
 
-h3 {
-	font-family: Cooper Black, Arial, sans-serif;
-}
-.answers {
-	font-size: 14px;
+label {
+	cursor: pointer;
 }
 
-.red {
-	color: red;
+/*
+** End Global Styles
+*/
+
+.main_header {
+	width: 100%;
+	max-width: 1200px;
+	margin: auto;
 }
 
-.answers .answerA {
-	padding-bottom: 10px;
+.main_header img {
+	width: 100%;
 }
 
-.answers .answerB {
-	padding-bottom: 10px;
+.image_group {
+	width: 100%;
+	max-width: 1200px;
+	margin: auto;
+	text-align: center;
 }
 
-.answers .answerC {
-	padding-bottom: 10px;
+.image_group img {
+	max-width: 100%;
 }
 
-.answers .answerD {
-	padding-bottom: 10px;
+.questions {
+	width: 100%;
+	max-width: 690px;
+	margin: auto;
 }
 
-.answers .answerE {
-	padding-bottom: 10px;
+.answer {
+	padding-bottom: 15px;
+	padding-left: 27px; /* padding-left and text-indent have to be the same but text-indent negative */
+	text-indent: -27px;
+	line-height: 1.2;
 }
 
-.answers .answerF {
-	padding-bottom: 10px;
-}
-
-.answers .answerG {
-	padding-bottom: 10px;
-}
 
 /* MEDIA QUERIES ========================================== */
 
 @media (max-width: 991px) {
-	#quizapp {
-	margin-left: 100px;
-	margin-right: 100px;
-	}
+
 }
+
 @media (max-width: 684px) {
-	#quizapp {
-	margin-left: 50px;
-	margin-right: 50px;
-	}
 }
 
 @media (max-width: 474px) {
-	#quizapp {
-	margin-left: 25px;
-	margin-right: 25px;
-	}
 }
