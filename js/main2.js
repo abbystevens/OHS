@@ -2,36 +2,36 @@ var counterArray = [
 	{
 		id: A,
 		count: 0,
-		url: 'file://localhost/Users/adeats/Desktop/OHS2/snuggler.html';
+		url: '../OHS/snuggler.html';
 	},
 	{
 		id: B,
 		count: 0,
-		url: 'file://localhost/Users/adeats/Desktop/OHS2/bionicBark.html';
+		url: '../OHS/bionicBark.html';
 	},
 	{
 		id: C,
 		count: 0,
-		url: 'file://localhost/Users/adeats/Desktop/OHS2/enthusiastico.html';
+		url: '../OHS/enthusiastico.html';
 	},
 	{
 		id: D,
 		count: 0,
-		url: 'file://localhost/Users/adeats/Desktop/OHS2/cautious.html';
+		url: '../OHS/cautious.html';
 	},
 	{
 		id: E,
 		count: 0,
-		url: 'file://localhost/Users/adeats/Desktop/OHS2/wag.html';
+		url: '../OHS/wag.html';
 	},
 	{
 		id: F,
 		count: 0,
-		url: 'file://localhost/Users/adeats/Desktop/OHS2/sniffer.html';
+		url: '../OHS/sniffer.html';
 	},
 	{
 		id: G,
 		count: 0,
-		url: 'file://localhost/Users/adeats/Desktop/OHS2/count.html';
+		url: '../OHS/count.html';
 	}
 ]
