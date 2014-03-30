@@ -1,6 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <!--[if lte IE 8]>
+    <%= stylesheet_link_tag "universal", :media => "all" %>
+    <%= javascript_include_tag 'html5shiv-printshiv' %>
+  <![endif]-->
+
   <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="css/main.css">
   <script src="js/jquery-1.10.2.js" type="text/javascript"></script>
