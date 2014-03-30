@@ -17,7 +17,7 @@ body {
 }
 
 h2 {
-	margin: 15px 0;
+	margin: 5px 0 15px 0;
 	font-family: "Cooper Black", Arial, sans-serif;
 	font-weight: bold;
 	font-size: 26px;
@@ -27,14 +27,20 @@ label {
 	cursor: pointer;
 }
 
+input[type=radio] {
+	position: absolute;
+	left: -9999px;
+}
+
 /*
 ** End Global Styles
 */
 
 .main_header {
 	width: 100%;
-	max-width: 1200px;
-	margin: auto;
+	max-width: 992px;
+	padding: 0 20px;
+	margin: 20px auto 0 auto;
 }
 
 .main_header img {
@@ -43,7 +49,7 @@ label {
 
 .image_group {
 	width: 100%;
-	max-width: 1200px;
+	max-width: 690px;
 	margin: auto;
 	text-align: center;
 }
@@ -52,17 +58,65 @@ label {
 	max-width: 100%;
 }
 
+.stars_line {
+	margin: 25px 0;
+}
+
+.stars_line-header {
+	padding: 0 20px;
+	margin: 10px 0 15px 0;
+}
+
 .questions {
 	width: 100%;
-	max-width: 690px;
+	max-width: 710px;
+	padding: 0 20px;
 	margin: auto;
 }
 
+.question {
+	padding-left: 10px;
+}
+
 .answer {
-	padding-bottom: 15px;
-	padding-left: 27px; /* padding-left and text-indent have to be the same but text-indent negative */
-	text-indent: -27px;
+	position: relative;
+	padding-top: 15px;
+	padding-left: 30px;
 	line-height: 1.2;
+}
+
+.answer label:before {
+    content:"";
+    display: inline-block;
+    position: absolute;
+    top: 13px;
+    left: -2px;
+    width: 25px;
+    height:25px;
+    background-image:url(../img/formelements.png);
+}
+
+.answer-first {
+	padding-top: 0;
+}
+
+.answer-first label:before {
+	padding-top: 0;
+	top: -1px;
+}
+
+/* Checked Neutral State */
+.answer label:before {
+	background-position: -25px -25px;
+}
+
+/* Checked Position */
+.checked label:before {
+	background-position: -25px 0;
+}
+
+#quiz_submit {
+	
 }
 
 
