@@ -25,6 +25,11 @@ var DoggieDash = {
 		$("#quiz_submit").click(function(){
 			that.calculate();
 		});
+
+		// Cape button
+		$(".bionic_cape_button").click(function() {
+			window.location = 'https://www.oregonhumane.org/doggiedash/';
+		});
 	},
 
 	calculate: function() {

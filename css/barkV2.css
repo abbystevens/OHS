@@ -136,51 +136,44 @@ input[type=radio] {
 	margin-right: auto;
 }
 
+
 .results_page_img {
-	position: absolute;
-	top: 0px;
-	left: 0px;
+	
 	width: 100%;
 }
 
 .results_button {
 	display: inline-block;
 	margin-right: 10px;
-	margin-top: 100px;
 	margin-bottom: 20px;
 
 }
+
 /* BIONIC BARK ============================================ */
-html { 
-  background: url(img/Bark/SuperQuiz-Bark.jpg) no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  background-color: orange;
-}
-.box {
-	height: 50px;
-	width: 100px;
-	background: red;
-	display: inline-block;
-}
+
 .bionicBark {
 	background: #D31939;
 }
 
 .bionic_buttons {
 	position: absolute;
-	bottom: 81px;
+	bottom: 64px;
 	right: 66px;
-	width: 470px;
+	width: 450px;
 	text-align: center;
+}
+
+	.bionic_buttons-image {
+		width: 200px;
+		padding-bottom: 10px;
+	}
 }
 
 .bionic_buttons .results_button-facebook {
 	position: relative;
 	bottom: 7px;
 	margin-left: 87px;
+	margin-right: 20px;
 }
 
 .results_button-facebook {
@@ -196,87 +189,4 @@ html {
 	-webkit-transform-origin: bottom left;
 }
 
-.bionic_cape_button {
-	background: #BFBF42;
-	width: 250px;
-	height: 65px;
-	font-family: Arial;
-	font-style: bold;
-	font-size: 20px;
-}
 /* MEDIA QUERIES ========================================== */
-
-@media (max-width: 1150px) {
-	.bionic_buttons-image {
-		width: 200px;
-	}
-}
-
-@media (max-width: 1100px) {
-	.bionic_buttons-image {
-		width: 150px;
-	}
-}
-
-@media (max-width: 1000px) {
-	.bionicBark .results_button {
-		display: block;
-	}
-
-	.bionic_buttons {
-		width: auto;
-		bottom: 50px;
-		right: 86px;
-		text-align: left;
-	}
-
-	.bionic_buttons .results_button-facebook {
-		display: inline-block;
-		margin-left: 0;
-	}
-
-	.bionic_buttons .results_button-twitter {
-		display: inline-block;
-	}
-
-	.bionic_buttons-image {
-		width: 250px;
-	}
-}
-
-@media (max-width: 768px) {
-	.bionic_buttons-image {
-		width: 200px;
-	}
-}
-
-@media (max-width: 668px) {
-	.bionic_buttons {
-		right: 16px;
-		bottom: 30px;
-	}
-
-	.bionic_buttons-image {
-		width: 150px;
-	}
-}
-
-@media (max-width: 510px) {
-	.bionic_buttons {
-		right: 35px;
-		bottom: 10px;
-	}
-
-	.bionic_buttons-image {
-		width: 125px;
-	}
-
-	.bionic_buttons .results_button-facebook {
-		display: block;
-		margin-bottom: 0;
-	}
-
-	.bionic_buttons .results_button-twitter {
-		display: block;
-	}
-}
