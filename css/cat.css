@@ -1,0 +1,42 @@
+.results_page {
+	position: relative;
+	width: 100%;
+	max-width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.results_page_img {
+	width: 100%;
+}
+
+.results_button {
+	display: inline-block;
+	margin-right: 10px;
+	margin-bottom: 20px;
+}
+
+.cat {
+	background: #1C1B19;
+}
+
+.cat_buttons {
+	position: absolute;
+	bottom: 85px;
+	right: 96px;
+	width: 467px;
+	text-align: center;
+}
+
+.cat_buttons-image {
+	width: 220px;
+}
+
+.cat_buttons .results_button-facebook {
+	position: relative;
+	bottom: 7px;
+	margin-left: 87px;
+}
+
+/* MEDIA QUERIES ========================================== */
+
