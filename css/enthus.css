@@ -5,53 +5,49 @@
 }
 
 html, body {
-	background: #D31939;
+	background: #D3D800;
 	height: 100%;
-	color: white;
 }
 
 p {
 	font-family: Arial, sans-serif;
 	font-size: 22px;
 	line-height: 1.1;
-	margin-top: 330px;
+	margin-top: 480px;
+	margin-left: 115px;
 }
+
 
 #footer {
-	height: 400px;
-	background-color: #D31939;
-	margin-right: auto;
-	margin-left: auto;
-	text-align: top;
-
+	margin-top: 500px;
 }
 
-h2 {
+ h2 {
 	text-align: center;
 	font-family: "Cooper Black", Arial, sans-serif;
-	font-size: 28px;
-	font-weight: lighter;
-	margin-top: -80px;
-}
-
-#barkerLogo {
-	position: absolute;
-	margin-top: 20px;
+	font-size: 30px;
 }
 
 #logoOHS {
+	position: absolute;
+	margin-left: 50px;
 	margin-top: 20px;
 }
-.dashCapeBtns {
+
+#enthusLogo {
+	position: absolute;
+	padding-right: 50px;
+}
+
+
+.snuggler_buttons {
 	position: absolute;
 	display: table;
 	width: 100%;
-	width: 220px;
-	height: 50px;
 	vertical-align: middle;
 }
 
-.dashCapeBtns .btn-default{
+.snuggler_buttons .btn-default{
 	background-color: #E94B28;
 	font-family: Arial;
 	font-style: bold;
@@ -59,7 +55,6 @@ h2 {
 	color: white;
 	padding-right: 20px;
 	width: 220px;
-	height: 50px;
 	display: table-cell;
 	vertical-align: middle;
 }
@@ -69,34 +64,27 @@ h2 {
 
 @media (max-width: 1199px) {
 	p {
-	 	margin-top: 250px;
+		margin-top: 390px;
+		margin-left: 140px;
+		margin-right: 50px;
 	}
-	h2 {
-		margin-top: -40px;
-	}
-
-	
 }
 
 @media (max-width: 991px) {
-	p {
-	 	margin-top: 160px;
-	}
-	h2 {
-		margin-top: -70px;
-	}
-
-}
-
-@media (max-width: 870px) {
-	#barkerLogo {
-	 	margin-left: -20px;
-	}
 	#logoOHS {
-		margin-left: -20px;	
+		width: 120%;
+		margin-left: 30px;	
+	}
+
+	p {
+		margin-top: 290px;
+		margin-left: 145px;
+	}
+
+	h2 {
+		margin-top: 30px;
 	}
 }
-
 
 @media (max-width: 768px) {
 	.snuggler_buttons .btn-default{
@@ -105,6 +93,6 @@ h2 {
 	}
 }
 
-*/
+
 
 

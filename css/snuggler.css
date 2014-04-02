@@ -1,59 +1,126 @@
-html {
-	background: #A7C9D2;
+* {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;	
+	box-sizing: border-box;
 }
 
-body {
+html, body {
 	background: #A7C9D2;
+	height: 100%;
 }
 
-#snuggler {
-	margin-left: 15px;
-	margin-right: 15px;
-	margin-top: 15px;
+p {
+	font-family: Arial, sans-serif;
+	font-size: 22px;
+	line-height: 1.1;
+	margin-top: 440px;
+	margin-left: 20px;
+}
+
+
+#footer {
+	margin-top: 500px;
+}
+
+ h2 {
+	text-align: center;
+	font-family: "Cooper Black", Arial, sans-serif;
+	font-size: 30px;
+	margin-top: 110px;
+}
+
+#logoOHS {
+	position: absolute;
+	margin-left: 50px;
+	margin-top: 20px;
+}
+
+#logoOHSmobile {
+	height: 125px;
+	position: absolute;
+	margin-top: 10px;
+	padding-right: 20px;
+
+}
+
+#snugglerLogo {
+	position: absolute;
+	padding-right: 20px;
+}
+ 
+ 
+#snugglerLogoMobile {
+	position: absolute;
+	width: 500px;
+	margin-top: 125px;
+	margin-left: 135px;
+	margin-right: 50px;
+}
+
+.textMobile {
+	position: relative;
+	
 }
 
 .snuggler_buttons {
-	position: relative;
-	margin-top: -70px;
+	position: absolute;
+	display: table;
+	width: 100%;
+	vertical-align: middle;
 }
+
 .snuggler_buttons .btn-default{
 	background-color: #E94B28;
+	font-family: Arial;
+	font-style: bold;
+	font-size: 19px;
 	color: white;
 	padding-right: 20px;
-	width: 242px;
+	width: 220px;
+	display: table-cell;
+	vertical-align: middle;
 }
-
-.dash_button {
-	margin-left: 100px;
-}
-
-h2 {
-	text-align: center;
-	margin-top: 15px;
-	padding: 0px 10px 0px 10px;
-}
-
-/*
-.twitter-share-button {
-	height: 50%;
-	overflow: auto;
-	margin-left: 600px;
-	position: absolute;
-	top: 0; left: 0; bottom: 0; right: 0;
-}
-
-*/
 
 
 /* MEDIA QUERIES ========================================== */
 
-@media (max-width: 767px) {
-	.snuggler_buttons .btn-default{
-	padding-right: 20px;
-	width: 150px;
-}
+@media (max-width: 1199px) {
+	p {
+		margin-top:370px;
+	}
+	h2 {
+		margin-left: -16px;
+	}
 }
 
+@media (max-width: 991px) {
+	#logoOHS {
+		width: 120%;
+		margin-left: 30px;	
+	}
+
+	p {
+		margin-top:285px;
+	}
+}
+
+@media (max-width: 768px) {
+	.snuggler_buttons .btn-default{
+		padding-right: 20px;
+		width: 150px;
+	}
+}
+
+@media (max-width: 500px) {
+	#logoOHSmobile {
+	width: 75px;
+	position: absolute;
+	top: 0;
+	right: 0;
+	margin-top: 30px;
+
+}
+}
 
 
 

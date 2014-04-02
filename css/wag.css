@@ -5,53 +5,47 @@
 }
 
 html, body {
-	background: #D31939;
+	background: #FFD400;
 	height: 100%;
-	color: white;
 }
 
 p {
 	font-family: Arial, sans-serif;
 	font-size: 22px;
 	line-height: 1.1;
-	margin-top: 330px;
+	margin-top: 80px;
+	margin-left: -50px;
+	margin-right: 30px;
 }
 
-#footer {
-	height: 400px;
-	background-color: #D31939;
-	margin-right: auto;
-	margin-left: auto;
-	text-align: top;
 
-}
-
-h2 {
+ h2 {
 	text-align: center;
 	font-family: "Cooper Black", Arial, sans-serif;
-	font-size: 28px;
-	font-weight: lighter;
-	margin-top: -80px;
-}
-
-#barkerLogo {
-	position: absolute;
-	margin-top: 20px;
+	font-size: 30px;
+	margin-top: 395px;
 }
 
 #logoOHS {
-	margin-top: 20px;
+	position: absolute;
+	margin-top: 250px;
+	margin-left: -75px;
+
 }
-.dashCapeBtns {
+
+#wagLogo {
+	position: absolute;
+}
+
+
+.wag_buttons {
 	position: absolute;
 	display: table;
 	width: 100%;
-	width: 220px;
-	height: 50px;
 	vertical-align: middle;
 }
 
-.dashCapeBtns .btn-default{
+.wag_buttons .btn-default{
 	background-color: #E94B28;
 	font-family: Arial;
 	font-style: bold;
@@ -59,7 +53,6 @@ h2 {
 	color: white;
 	padding-right: 20px;
 	width: 220px;
-	height: 50px;
 	display: table-cell;
 	vertical-align: middle;
 }
@@ -67,36 +60,47 @@ h2 {
 
 /* MEDIA QUERIES ========================================== */
 
+
 @media (max-width: 1199px) {
-	p {
-	 	margin-top: 250px;
-	}
-	h2 {
-		margin-top: -40px;
+	#wagLogo {
+		margin-left: -35px;
 	}
 
-	
+	#logoOHS {
+		margin-top: 220px;
+		margin-left: -40px;
+	}
+
+	p {
+		margin-left: -30px;
+		margin-right: 0px;
+	}
+
+	h2 {
+		margin-top: 340px;
+		margin-left: -16px;
+	}
 }
 
 @media (max-width: 991px) {
-	p {
-	 	margin-top: 160px;
-	}
-	h2 {
-		margin-top: -70px;
-	}
-
-}
-
-@media (max-width: 870px) {
-	#barkerLogo {
-	 	margin-left: -20px;
+	#wagLogo {
+		margin-left: -40px;
+		margin-top: 15px;
 	}
 	#logoOHS {
-		margin-left: -20px;	
+		margin-top: 160px;
+	}
+
+	p {
+		font-size: 20px;
+		margin-top: 30px;
+		margin-right: 0px;
+	}
+
+	h2 {
+		margin-top: 280px;
 	}
 }
-
 
 @media (max-width: 768px) {
 	.snuggler_buttons .btn-default{
@@ -105,6 +109,6 @@ h2 {
 	}
 }
 
-*/
+
 
 

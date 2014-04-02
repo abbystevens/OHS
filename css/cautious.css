@@ -5,7 +5,7 @@
 }
 
 html, body {
-	background: #D31939;
+	background: #005D77;
 	height: 100%;
 	color: white;
 }
@@ -14,12 +14,14 @@ p {
 	font-family: Arial, sans-serif;
 	font-size: 22px;
 	line-height: 1.1;
-	margin-top: 330px;
+	margin-top: 150px;
+	margin-left: 45px;
+	margin-right: 40px;
 }
 
 #footer {
 	height: 400px;
-	background-color: #D31939;
+	background-color: #005D77;
 	margin-right: auto;
 	margin-left: auto;
 	text-align: top;
@@ -31,16 +33,19 @@ h2 {
 	font-family: "Cooper Black", Arial, sans-serif;
 	font-size: 28px;
 	font-weight: lighter;
-	margin-top: -80px;
 }
 
-#barkerLogo {
+#cautiousLogo {
 	position: absolute;
 	margin-top: 20px;
+	margin-left: 80px;
+	width: 150%;
+
 }
 
 #logoOHS {
 	margin-top: 20px;
+	margin-left: -50px;
 }
 .dashCapeBtns {
 	position: absolute;
@@ -68,24 +73,34 @@ h2 {
 /* MEDIA QUERIES ========================================== */
 
 @media (max-width: 1199px) {
-	p {
-	 	margin-top: 250px;
+	#cautiousLogo {
+	 	margin-left: 45px;
 	}
-	h2 {
-		margin-top: -40px;
-	}
+	#logoOHS {
 
-	
+		margin-left: -20px;	
+	}
+	p {
+	 	margin-top: 105px;
+	 	margin-left: 10px;
+	 	margin-right: 40px;
+	}	
 }
 
 @media (max-width: 991px) {
+	#cautiousLogo {
+	 	margin-left: 25px;
+	}
+	#logoOHS {
+		width: 80%;
+		margin-left: -20px;	
+	}
 	p {
-	 	margin-top: 160px;
+	 	margin-top: 70px;
+	 	margin-left: -8px;
+	 	margin-right: 55px;
+	 	font-size:20px;
 	}
-	h2 {
-		margin-top: -70px;
-	}
-
 }
 
 @media (max-width: 870px) {
@@ -93,6 +108,7 @@ h2 {
 	 	margin-left: -20px;
 	}
 	#logoOHS {
+
 		margin-left: -20px;	
 	}
 }
