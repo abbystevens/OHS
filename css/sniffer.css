@@ -10,13 +10,18 @@ html, body {
 	color: white;
 }
 
+.sniffer {
+	margin: 0 auto;
+	max-width: 960px;
+}
+
 p {
 	font-family: Arial, sans-serif;
 	font-size: 22px;
 	line-height: 1.1;
-	margin-top: 411px;
-	margin-left: -33px;
-	margin-right: 70px;
+	margin-top: -75px;
+	margin-left: -150px;
+	margin-right: 150px;
 }
 
 
@@ -28,38 +33,36 @@ p {
 	text-align: center;
 	font-family: "Cooper Black", Arial, sans-serif;
 	font-size: 30px;
-	margin-top: 110px;
+	margin-top: 40px;
+	
 }
 
 #logoOHS {
 	position: absolute;
-	margin-left: 50px;
 	margin-top: 20px;
+	margin-left: 20px;
 }
 
-#enthusLogo {
+#logoOHSTiny {
 	position: absolute;
-	padding-right: 50px;
+	top: 0;
+	right: 0;
+	margin-top: 50px;
+	margin-right: 50px;
+}
+
+#snifferLogoTiny {
+	margin-top: 50px;
+	margin-left: 120px;
+	width: 500px;
+
 }
 
 
 .snuggler_buttons {
-	position: absolute;
-	display: table;
-	width: 100%;
-	vertical-align: middle;
-}
-
-.snuggler_buttons .btn-default{
-	background-color: #E94B28;
-	font-family: Arial;
-	font-style: bold;
-	font-size: 19px;
-	color: white;
-	padding-right: 20px;
-	width: 220px;
-	display: table-cell;
-	vertical-align: middle;
+	margin-top: 20px;
+	margin-left: 20px;
+	margin-right: 20px;
 }
 
 
@@ -67,38 +70,48 @@ p {
 
 
 @media (max-width: 1199px) {
-	#logoOHS {
-		margin-left: 0px;	
-	}
 	p {
-		margin-top: 340px;
-	}
-		h2 {
-		margin-left: -16px;
+		margin-left: -50px;
+		margin-right: 0px;
 	}
 }
 
 @media (max-width: 991px) {
-	#logoOHS {
-	 margin-left: -15px;		
+	p {	
+		margin-right: -25px;	
 	}
-	#enthusLogo {
-		position: absolute;
-		padding-right: 0px;
-		margin-left: -46px;
-	}
-	p {
-		font-size: 20px;
-		margin-top: 270px;
-		margin-left: -60px;
-		margin-right: 0px;	
+}
+
+
+@media (max-width: 840px) {
+	p {	
+		margin-left: -30px;
 	}
 }
 
 @media (max-width: 768px) {
-	.snuggler_buttons .btn-default{
-		padding-right: 20px;
-		width: 150px;
+	#snifferLogoTiny {
+	 margin-left: 80px;
+	}
+	p {
+		margin-top: 10px;
+		margin-right: 30px;
+		margin-left: 30px;
+	}
+	h2 {
+		margin-left: 20px;
+		margin-right: 20px;
 	}
 }
 
+@media (max-width: 630px) {
+	#snifferLogoTiny {
+	 margin-left: 50px;
+	}
+}
+
+@media (max-width: 600px) {
+	#snifferLogoTiny {
+	 margin-left: 20px;
+	}
+}

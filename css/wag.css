@@ -9,6 +9,11 @@ html, body {
 	height: 100%;
 }
 
+.wag {
+	margin: 0 auto;
+	max-width: 960px;
+}
+
 p {
 	font-family: Arial, sans-serif;
 	font-size: 22px;
@@ -38,29 +43,12 @@ p {
 }
 
 
-.wag_buttons {
-	position: absolute;
-	display: table;
-	width: 100%;
-	vertical-align: middle;
-}
 
-.wag_buttons .btn-default{
-	background-color: #E94B28;
-	font-family: Arial;
-	font-style: bold;
-	font-size: 19px;
-	color: white;
-	padding-right: 20px;
-	width: 220px;
-	display: table-cell;
-	vertical-align: middle;
-}
 
 
 /* MEDIA QUERIES ========================================== */
 
-
+/*
 @media (max-width: 1199px) {
 	#wagLogo {
 		margin-left: -35px;
