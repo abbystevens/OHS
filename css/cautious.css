@@ -38,7 +38,7 @@ h2 {
 	font-family: "Cooper Black", Arial, sans-serif;
 	font-size: 30px;
 	margin-top: 40px;
-	
+	margin-bottom: 40px;
 }
 
 #cautiousLogo {
@@ -50,25 +50,25 @@ h2 {
 #cautiousLogoTiny {
 	position: absolute;
 	margin-top: 50px;
-	margin-left: 165px;
+	margin-left: 110px;
 	margin-right: auto;
-	
 }
 
 #logoOHS {
-position: absolute;
-top: 0;
-right:0;
-margin-top: 50px;
-margin-right: 40px;
+	position: absolute;
+	top: 0;
+	right:0;
+	margin-top: 50px;
+	margin-right: 40px;
 }
 
 #logoOHSTiny {
-position: absolute;
-top: 0;
-left:0;
-margin-top: 50px;
-margin-left: 60px;
+	position: absolute;
+	top: 0;
+	left:0;
+	margin-top: 30px;
+	margin-left: 60px;
+	width: 75px;
 }
 
 .snuggler_buttons {
@@ -133,37 +133,58 @@ margin-left: 60px;
 
 @media (max-width: 670px) {
 	#cautiousLogoTiny {
-		margin-left: 140px;
+		margin-left: 85px;
 	}
 }
 
-
-@media (max-width: 640px) {
-	#cautiousLogoTiny {
-		margin-left: 110px;
-	}
-}
 
 @media (max-width: 585px) {
 	#cautiousLogoTiny {
-		margin-left: 90px;
+		margin-left: 60px;
 	}
 	p {
 		margin-left: 20px;
-		margin-right: 20px;
+		margin-right: 25px;
+	}
+}
+
+@media (max-width: 545px) {
+	#cautiousLogoTiny {
+		margin-left: 40px;
+	}
+	p {
+		margin-left: 20px;
+		margin-right: 25px;
 	}
 }
 
 @media (max-width: 480px) {
 	#cautiousLogoTiny {
-		margin-left: 55px;
+		margin-left: 20px
 	}
 	p {
 		margin-left: 15px;
 		margin-right: 15px;
-	}
-	
+	}	
 }
 
+@media (max-width: 400px) {
+	#cautiousLogoTiny {
+		margin-left: 0px;
+	}
+}
+
+@media (max-width: 350px) {
+	#cautiousLogoTiny {
+		margin-left: -30px;
+	}
+	#logoOHSTiny {
+		margin-left: 25px;
+	}
+	p {
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+}
 
 

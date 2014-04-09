@@ -11,8 +11,10 @@ html, body {
 
 .wag {
 	margin: 0 auto;
-	max-width: 960px;
+	max-width: 991px;
 }
+
+
 
 p {
 	font-family: Arial, sans-serif;
@@ -28,7 +30,7 @@ p {
 	text-align: center;
 	font-family: "Cooper Black", Arial, sans-serif;
 	font-size: 30px;
-	margin-top: 465px;
+	margin-top: 40px;
 }
 
 #logoOHS {
@@ -38,62 +40,179 @@ p {
 
 }
 
-#wagLogo {
+
+#logoOHSTiny {
 	position: absolute;
+	margin-top: 250px;
 }
 
+#wagLogo {
+	position: absolute;
+	margin-left: -55px;
+}
 
+#wagLogoMobile {
+	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
+}
 
+.wagButtons {
+	margin-top: 305px;
+	margin-left: 40px;
+}
+
+.bottomBtns {
+	margin-top: 20px;
+}
 
 
 /* MEDIA QUERIES ========================================== */
 
-/*
-@media (max-width: 1199px) {
+@media (max-width: 1099px) {
 	#wagLogo {
-		margin-left: -35px;
+		max-width: 85%;
+		margin-left: 0px;
 	}
-
-	#logoOHS {
-		margin-top: 220px;
-		margin-left: -40px;
-	}
-
-	p {
-		margin-left: -30px;
-		margin-right: 0px;
-	}
-
-	h2 {
-		margin-top: 390px;
-		margin-left: -16px;
-	}
-}
-
-@media (max-width: 991px) {
-	#wagLogo {
-		margin-left: -40px;
-		margin-top: 15px;
-	}
-	#logoOHS {
-		margin-top: 160px;
-	}
-
 	p {
 		font-size: 20px;
-		margin-top: 30px;
-		margin-right: 0px;
+		margin-top: 50px;
+	}
+	.wagButtons {
+		margin-top: 270px;		
 	}
 
+	#logoOHS {
+		margin-top: 230px;
+		margin-left: -150px;
+	}
 	h2 {
-		margin-top: 280px;
+		margin-left: 20px;
+		margin-right: 20px;
+	}
+
+}
+
+@media (max-width: 970px) {
+	#wagLogo {
+		margin-top: 25px;
 	}
 }
 
-@media (max-width: 768px) {
-	.snuggler_buttons .btn-default{
-		padding-right: 20px;
-		width: 150px;
+@media (max-width: 915px) {
+	.wagButtons {
+		margin-top: 220px;		
+	}
+
+	#logoOHS {
+		margin-top: 195px;
+		margin-left: -130px;
+	}
+}
+
+@media (max-width: 884px) {
+	#wagLogo {
+		margin-top: 40px;
+	}
+}
+
+@media (max-width: 840px) {
+	.wagButtons {
+		margin-top: 210px;		
+	}
+
+	#logoOHS {
+		margin-top: 180px;
+		margin-left: -115px;
+	}
+}
+
+@media (max-width: 780px) {
+	p {
+		margin-top: 35px;
+	}
+}
+
+@media (max-width: 767px) {
+	p {
+		margin-top: 375px;
+		margin-left: 30px;
+		margin-right: 30px;
+	}
+	#wagLogoMobile {
+		margin-left: 210px;
+}
+
+	#logoOHSTiny {
+		width: 60px;
+		margin-top: 150px;
+		margin-left: 205px;
+	}
+	h2 {
+		margin-top: 20px;
+		margin-bottom: 50px;
+	}
+}
+
+@media (max-width: 640px) {	
+	#wagLogoMobile {
+		margin-left: 165px;
+}
+	#logoOHSTiny {
+		margin-left: 160px;
+	}
+}
+@media (max-width: 539px) {	
+	#wagLogoMobile {
+		margin-left: 145px;
+}
+	#logoOHSTiny {
+		margin-left: 140px;
+	}
+}
+
+@media (max-width: 498px) {	
+	#wagLogoMobile {
+		margin-left: 125px;
+}
+	#logoOHSTiny {
+		margin-left: 120px;
+	}
+}
+
+@media (max-width: 455px) {	
+	#wagLogoMobile {
+		margin-left: 110px;
+}
+	#logoOHSTiny {
+		margin-left: 105px;
+	}
+}
+
+@media (max-width: 438px) {	
+	#wagLogoMobile {
+		margin-left: 100px;
+}
+	#logoOHSTiny {
+		margin-left: 95px;
+	}
+}
+
+@media (max-width: 427px) {	
+	#wagLogoMobile {
+		margin-left: 85px;
+}
+	#logoOHSTiny {
+		margin-left: 80px;
+	}
+}
+
+@media (max-width: 400px) {	
+	#wagLogoMobile {
+		margin-left: 45px;
+}
+	#logoOHSTiny {
+		margin-left: 35px;
 	}
 }
 

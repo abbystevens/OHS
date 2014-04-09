@@ -49,6 +49,7 @@ p {
 	right: 0;
 	margin-top: 50px;
 	margin-right: 50px;
+	width: 60px;
 }
 
 #snifferLogoTiny {
@@ -93,6 +94,9 @@ p {
 	#snifferLogoTiny {
 	 margin-left: 80px;
 	}
+	#logoOHSTiny {
+		margin-right: 225px;
+	}
 	p {
 		margin-top: 10px;
 		margin-right: 30px;
@@ -101,6 +105,13 @@ p {
 	h2 {
 		margin-left: 20px;
 		margin-right: 20px;
+		margin-bottom: 50px;
+	}
+}
+
+@media (max-width: 680px) {
+	#logoOHSTiny {
+		margin-right: 180px;
 	}
 }
 
@@ -115,3 +126,23 @@ p {
 	 margin-left: 20px;
 	}
 }
+
+@media (max-width: 550px) {
+	#logoOHSTiny {
+		margin-right: 150px;
+	}
+}
+
+@media (max-width: 490px) {
+	#logoOHSTiny {
+		margin-right: 130px;
+	}
+}
+
+@media (max-width: 450px) {
+	#logoOHSTiny {
+		margin-right: 80px;
+		margin-top: 30px;
+	}
+}
+

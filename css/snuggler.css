@@ -34,40 +34,40 @@ p {
 
 #logoOHS {
 	position: absolute;
+	z-index: 1;
 	margin-left: 50px;
 	margin-top: 20px;
 }
 
 #logoOHSmobile {	
 	position: absolute;
+	z-index: 1;
 	top: 0;
 	right:0;
-	width: 80%;
 	margin-top: 30px;
 	margin-right: 40px;
 	padding-right: 20px;
-
 }
 
 #snugglerLogo {
 	position: absolute;
-
+	z-index: 0;
 	padding-right: 20px;
 }
  
  
 #snugglerLogoMobile {
 	position: absolute;
+	z-index: 0;
 	width: 480px;
 	margin-top: 100px;
 	
 }
 
 .snuggler_buttons {	
-	vertical-align: middle;
-	margin-top: 30px;
-	margin-left: 175px;
-	margin-right: 165px;
+	margin-top: 60px;
+	margin-left: 40px;
+	margin-right: 40px;
 }
 
 .topButtons {
@@ -156,6 +156,10 @@ p {
 		margin-top:440px;
 		padding-right: 10px;
 	}
+	#logoOHSmobile {	
+		width: 80%;
+	}
+}
 
 
 @media (max-width: 645px) {
@@ -169,6 +173,11 @@ p {
 	p {
 		margin-top: 415px;
 	} 
+	#logoOHSmobile {	
+		width: 100%;
+		margin-right: 20px;
+		margin-top: 20px;
+	}
 }
 
 @media (max-width: 540px) {
@@ -185,24 +194,12 @@ p {
 	p {
 		margin-top: 365px;
 	} 
-
-	.tinyButtons {
-		margin-left: -50px;
-	}
 }
 
-@media (max-width: 480px) {
-	.tinyButtons {
-		margin-left: -55px;
-	}
-}
 @media (max-width: 455px) {
 	p {
 		margin-top: 365px;
 	} 
-	.tinyButtons {
-		margin-left: -75px;
-	}
 }
 
 @media (max-width: 440px) {
@@ -213,9 +210,18 @@ p {
 	#snugglerLogoMobile {
 		margin-top: 100px;
 	}
-	.tinyButtons {
-		margin-left: -95px;
-	}
+}
+
+@media (max-width: 400px) {
+	p {
+		margin-top: 300px;
+	} 
+}
+
+@media (max-width: 350px) {
+	p {
+		margin-top: 280px;
+	} 
 }
 
 
