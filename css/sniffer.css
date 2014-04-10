@@ -24,6 +24,9 @@ p {
 	margin-right: 150px;
 }
 
+.quizLink {
+	color: #5EC2EC;
+}
 
 #footer {
 	margin-top: 500px;
@@ -31,7 +34,7 @@ p {
 
  h2 {
 	text-align: center;
-	font-family: "Cooper Black", Arial, sans-serif;
+	font-family: 'Wendy One', sans-serif;
 	font-size: 30px;
 	margin-top: 40px;
 	

@@ -9,15 +9,23 @@ html, body {
 	height: 100%;
 }
 
+.snuggler {
+	margin: 0 auto;
+	max-width: 991px;
+}
+
 p {
 	font-family: Arial, sans-serif;
 	font-size: 22px;
 	line-height: 1.1;
-	margin-top: 525px;
+	margin-top: 385px;
 	margin-left: 20px;
 	margin-right: 20px;
 }
 
+.quizLink {
+	color: #E94C13;
+}
 
 #footer {
 	margin-top: 500px;
@@ -25,7 +33,7 @@ p {
 
  h2 {
 	text-align: center;
-	font-family: "Cooper Black", Arial, sans-serif;
+	font-family: 'Wendy One', Arial, sans-serif;
 	font-size: 30px;
 	margin-top: 22px;
 	margin-left: 20px;
@@ -65,9 +73,10 @@ p {
 }
 
 .snuggler_buttons {	
-	margin-top: 60px;
-	margin-left: 40px;
-	margin-right: 40px;
+	vertical-align: middle;
+	margin-top: 30px;
+	margin-left: 10px;
+	margin-right: 10px;
 }
 
 .topButtons {
@@ -88,67 +97,28 @@ p {
 
 /* MEDIA QUERIES ========================================== */
 
-@media (max-width: 1250px) {
-	p {
-		margin-top: 510px;
-	}
 
-	.snuggler_buttons {
-		margin-top: 20px;
+
+@media (max-width: 920px) {
+	p {
+		margin-top: 365px;
+	}
+}
+
+@media (max-width: 860px) {
+	p {
+		margin-top: 340px;
+	}
+}
+
+@media (max-width: 800px) {
+	p {
+		margin-top: 315px;
 	}
 }
 
 
-@media (max-width: 1199px) {
-	p {
-		margin-top:490px;
-	}
 
-}
-
-@media (max-width: 1140px) {
-	p {
-		margin-top:465px;
-	}
-}
-
-@media (max-width: 1095px) {
-	p {
-		margin-top:445px;
-	}
-}
-
-@media (max-width: 1050px) {
-	p {
-		margin-top:425px;
-	}
-}
-
-@media (max-width: 991px) {
-
-	p {
-		margin-top:400px;
-	}
-
-}
-
-@media (max-width: 945px) {
-	p {
-		margin-top:375px;
-	}
-}
-
-@media (max-width: 880px) {
-	p {
-		margin-top:350px;
-	}
-}
-
-@media (max-width: 810px) {
-	p {
-		margin-top:330px;
-	}
-}
 
 @media (max-width: 768px) {		 
 
@@ -158,6 +128,9 @@ p {
 	}
 	#logoOHSmobile {	
 		width: 80%;
+	}
+	.snuggler_buttons {
+		margin-top: 10px;
 	}
 }
 
